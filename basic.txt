@@ -1,0 +1,15 @@
+to send data post: http://localhost:3000/api/users/signup #for signup 
+example data {
+  "name": "Vaibhavi",
+  "age": 22,
+  "address": "Nagpur",
+  "aadharCardNumber": "123456789012",
+  "password": "test123",
+  "role": "voter"
+}
+
+for checking siugnup hogya then try login as  http://localhost:3000/api/users/login 
+  example data 
+ { "aadharCardNumber": "123456789012",
+  "password": "test123"
+}
